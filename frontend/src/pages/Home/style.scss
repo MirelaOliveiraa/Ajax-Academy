@@ -1,0 +1,158 @@
+.section{
+    width: 100%;
+
+    display: flex;
+
+    .section-div-left{
+        width: 40%;
+        height: 100vh;
+
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+
+        color: white;
+        background-color: brown;
+        
+        .iconBlood{
+            width: 100%;
+            height: 50%;
+            
+            color: rgb(201, 53, 53);
+        }
+        h3{
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+
+            color: white;
+        }
+        h5{
+            font-size: 12px;
+            font-weight: 400;
+            
+            color: white;
+        }
+    }
+    .section-div-rigth{
+        width: 60%;
+
+        padding: 0rem 15%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .div-text{
+            border-bottom: 1px solid gray;
+            h3{
+                margin-top: -6rem;
+                font-size: 20px;
+                color: #333033;
+
+            }
+            p{
+                font-size: 15px;
+                margin-bottom: 1rem;
+ 
+                color: gray;
+            }
+        }
+        .div-form{
+            margin-top: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+
+            .div-form-span{
+                display: flex;
+
+                .iconAdd{
+                    margin-right: 1rem;
+                    margin-bottom: 0.5rem;
+
+                    color: red;
+                }
+            }
+
+            .div-form-input{
+                width: 100%;
+                height: 2rem;
+
+                padding: 5px;
+                margin-bottom: 1rem;
+                border-radius: 5px;
+                border: 1px solid gray;
+            }
+            .div-form-button{
+                width: 50%;
+                height: 3rem;
+
+                margin: 0;
+                border: none;
+                padding: 0.5rem 15%;
+                border-radius: 2rem;
+
+                font-size: 16px;
+
+                color: white;
+                background-color: #e23030;
+
+            }
+            
+        }
+        .lista-doadores{
+            border-top: 1px solid gray ;
+            
+            span{
+                display: flex;
+                margin-top: 4rem;
+                align-items: center;
+
+                .iconDoadores{
+                    color: red;
+
+                    margin-right: 1rem;
+                }
+            }
+            
+            ul{
+                height: 5rem;
+
+                margin-top: 1rem;
+                overflow-y: scroll;
+                li{
+                    width: 50%;
+
+                    display: flex;
+                    padding: 1rem;
+                    font-size: 13px;
+                    font-weight: 600;
+                    list-style: none;
+                    border-radius: 5px;
+                    margin-bottom: 0.5rem;
+                    border: 1px solid gray;
+
+                    color: red;
+                    background-color: #f4f4f5;
+
+                }
+            }
+        }
+    }
+
+}
+ul::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  ul::-webkit-scrollbar-track {
+    background: brown;        /* color of the tracking area */
+  }
+  
+  ul::-webkit-scrollbar-thumb {
+      border-radius: 20px;   
+      border: 3px solid brown;  
+
+    background-color: white;    
+  }
