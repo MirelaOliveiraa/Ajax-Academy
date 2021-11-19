@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
+import HomeServices from "./service";
 import "./style.scss";
 
 import OpacityIcon from "@material-ui/icons/Opacity";
 import AddCircleOutlineIcon from "@material-ui/icons/AddCircleOutline";
-import HomeServices from "./service";
 
 const Home = () => {
   const [doadores, setDoadores] = useState([]);
