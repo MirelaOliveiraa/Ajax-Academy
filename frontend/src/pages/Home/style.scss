@@ -147,7 +147,8 @@ ul::-webkit-scrollbar {
   }
   
   ul::-webkit-scrollbar-track {
-    background: brown;        /* color of the tracking area */
+    background: brown;
+    border-radius: 5px;        /* color of the tracking area */
   }
   
   ul::-webkit-scrollbar-thumb {
