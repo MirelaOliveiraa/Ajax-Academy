@@ -5,6 +5,18 @@
       "nome": "Mirela",
       "email": "mirela@gmail.com",
       "tipo": "O +"
+    },
+    {
+      "nome": "Mirela",
+      "email": "mirela@gmail.com",
+      "tipo": "A+",
+      "id": 2
+    },
+    {
+      "nome": "Mirela",
+      "email": "mirela@gmail.com",
+      "tipo": "A+",
+      "id": 3
     }
   ]
 }
